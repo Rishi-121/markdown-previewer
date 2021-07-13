@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
+* {
+  font-family: "Fira Code";
+}
+
+.textarea {
+  width: 100%;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 45px;
+}
+
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
+}
+
+#preview {
+  padding: 40px;
+  text-align: left;
+}
